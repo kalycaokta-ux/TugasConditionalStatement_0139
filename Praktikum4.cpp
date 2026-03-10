@@ -29,3 +29,12 @@ string kondisiBMI (float bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+    float berat, tinggi, bmi;
+
+    // Panggil prosedur input
+    inputData(berat, tinggi);
+
+    
+}
