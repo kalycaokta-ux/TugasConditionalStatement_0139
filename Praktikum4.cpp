@@ -10,8 +10,6 @@ void inputData(float &berat, float &tinggi) {
 }
 
 // Fungsi untuk menghitung BMI
-float hitungBMI(float bmi) {
-    if (bmi < 18.5) {
-        return "Berat Badan Kurang";
-    }
+float hitungBMI(float berat, float tinggi) {
+    return berat / ( tinggi * tinggi);
 }
