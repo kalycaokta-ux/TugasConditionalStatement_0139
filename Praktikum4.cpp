@@ -41,5 +41,8 @@ int main() {
 
     // Output hasil
     cout << "n==== HASIL BMI =====" << endl;
-    cout ""
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Kondisi : " << kondisiBMI(bmi) << endl;
+
+    return 0;
 }
